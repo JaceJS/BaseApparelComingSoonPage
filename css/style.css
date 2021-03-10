@@ -1,0 +1,124 @@
+:root{
+    /* primary */
+    --Desaturated-Red: #ce9797;
+    --Soft-Red: #f96262;
+    /* neutral */
+    --Dark-Grayish-Red: #413a3a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    color: var(--Dark-Grayish-Red);
+    font-weight: 600;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;    
+    background-color: #fffafa;
+}
+
+.container{
+    color: var(--Desaturated-Red);
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 5.75em;
+    width: 100%;    
+}
+
+#logo{
+    padding: 2em;
+}
+
+#hero-mobile{
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+#hero-desktop{
+    display: none;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: .7rem;
+    line-height: 1.2;
+    font-weight: 300;    
+}
+
+p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+/* input area */
+.input-wrapper{
+    position: relative;    
+}
+
+input{
+    min-width: 311px;
+    height: 48px;
+    outline: none;
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    background-color: #fffafa;
+    width: 100%;
+}
+
+#input-box{
+    padding-left: 8%;
+    opacity: .5;   
+}
+
+#error-icon{
+    position: absolute;
+    right: 5rem;
+    top: .7rem;
+    display: none;
+}
+
+.submit-btn{
+    width: 66px;
+    height: 48px;
+    background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+    border-radius: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 58px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.submit-btn:active{
+    background: linear-gradient(135deg, #f5cfcf, #fcb3b3);
+    top: -3px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+}
+
+/* error style */
+.error{
+    visibility: visible;
+}
+
+input.error{
+    border: 2px solid #ff0000;
+}
+
+.input-wrapper > p{
+    margin-top: .5rem;
+    margin-bottom: 0;
+    font-size: .8rem;
+    padding-left: 8%;
+}
+
+
+

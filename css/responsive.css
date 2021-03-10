@@ -1,0 +1,38 @@
+@media screen and (min-width: 48em){
+    main{
+        height: 100vh;
+        overflow: hidden;
+        background: url(/images/bg-pattern-desktop.svg) no-repeat top left;
+    }
+
+    #hero-mobile{
+        display: none;
+    }
+    
+    #hero-desktop{
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+    }
+
+    .container{
+        position: absolute;
+        text-align: left;
+        padding: 5.25em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    h1,
+    p,
+    .input-wrapper{
+        width: 450px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+    }
+}
