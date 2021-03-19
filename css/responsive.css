@@ -2,7 +2,8 @@
     main{
         height: 100vh;
         overflow: hidden;
-        background: url(/images/bg-pattern-desktop.svg) no-repeat top left;
+        background: url(/images/bg-pattern-desktop.svg) no-repeat center;
+        background-size: cover;
     }
 
     #hero-mobile{
